@@ -1,0 +1,21 @@
+#myH1{
+    display: block;
+    
+    font-family: Verdana, sans-serif;
+}
+
+#myButton{
+    padding: 10px 20px;
+    font-size: 1.5em;
+    font-family: Helvetica;
+    cursor: pointer;
+    color: white;
+    background-color: hsl(0, 66%, 66%);
+    border-radius: 5px;
+}
+#myButton:hover{
+    background-color:hsl(0, 66%, 56%);
+}
+#myButton:active{
+    background-color:hsl(0, 66%, 46%); 
+}
